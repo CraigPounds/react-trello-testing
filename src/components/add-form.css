@@ -1,0 +1,30 @@
+.add-button {
+    padding: 8px;
+    border-radius: 4px;
+    text-align: left;
+    border: 0;
+    font: inherit;
+    width: 100%;
+}
+
+.add-list-wrapper > .add-button {
+    min-width: 200px;
+    background: #1565C0;
+    color: white;
+}
+
+.add-list-wrapper > .add-button:hover {
+    background: #0D47A1;
+}
+
+.list > .add-button:hover {
+    background: #BDBDBD;
+}
+
+.list > .add-button {
+    color: black;
+}
+
+.board .add-form {
+    align-self: flex-start;
+}
